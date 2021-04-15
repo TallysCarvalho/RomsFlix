@@ -1,6 +1,6 @@
 :root{
     --primary:#c742ce;
-    --secundary:#141414ec;
+    --secundary:#141414;
 }
 
 *{
@@ -13,6 +13,7 @@
 body{
     background: var(--secundary);
     font-family: 'Times New Roman', Times, serif;
+    color: white;
 }
 
 header .Container{
@@ -46,4 +47,58 @@ header nav a{
 
 header nav a:hover{
     color: #FFF;
+}
+
+/*Jogo em destaque*/
+
+.destaque{
+    font-size: 1rem;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url(/img/gamerwpp.jpg);
+    height: 400px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.destaque .descricao{
+    margin-top: 0.8rem;
+    margin-bottom: 2.4rem;
+}
+
+.destaque .titulo{
+    margin-top: 15%;
+    font-size: 2.5rem;
+}
+
+.botao{
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: #FFF;
+
+    padding: 1rem;
+    margin-right: 1rem;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: all .5s;
+}
+
+.botao:hover{
+    background-color: white;
+    color: black;
+}
+
+.botao i {
+    margin-right: 0.6rem;
+}
+
+.destaque .Container{
+    width: 70%;
+}
+
+.box-game{
+    height: 100%;
+    width: 100%;
+    display: block;
 }

@@ -1,24 +1,69 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+
+
+    <!-----------------------Owl css--------------------->
+    <link rel="stylesheet" href="./owlCSS/owl.carousel.min.css">
+    <link rel="stylesheet" href="./owlCSS/owl.theme.default.min.css">
+    <!------------------------------------------------------------------>
+
+
     <title>GameFlix</title>
 </head>
+
 <body>
     <header>
         <div class="Container">
             <h2 class="logo">GameFlix</h2>
             <nav>
-               <a href="">Inicio</a>
-               <a href="">Microsoft</a>
-               <a href="">Sony</a>
-               <a href="">Nintendo</a>
-               <a href="">PC</a>
+                <a href="">Inicio</a>
+                <a href="">Microsoft</a>
+                <a href="">Sony</a>
+                <a href="">Nintendo</a>
+                <a href="">PC</a>
             </nav>
         </div>
     </header>
+
+    <main>
+        <div class="destaque">
+            <div class="Container">
+                <h3 class="titulo">Digimon story ds</h3>
+                <p class="descricao">O jogo inicia com o herói, cujo nome é escolhido próprio jogador, acessando um
+                    computador a partir de uma sala da sua escola. Ele está só na cena e pretende usar o “DigiSearch”,
+                    procurando pelo termo “Digital Monster”. Ao procurar, ele avista uma DigiFarm com um Gaomon e um
+                    Agumon.</p>
+                <div class="botoes">
+                    <button role="button" class="botao"><i class="fas fa-download"></i>Baixar Agora</button>
+                    <button role="button" class="botao"><i class="fas fa-info-circle"></i>Mais Informações</button>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <div class="carrosel-games">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img class="box-game" src="img/digimon-ds-capa.jpg" alt="">
+            </div>
+        </div>
+
+    </div>
+
+    <script src="https://kit.fontawesome.com/fb4e7a4bc9.js" crossorigin="anonymous"></script>
+    <!--------------------------------Owl JS-------------------------------->
+    
+    <script src="./owlJS/jquery.min.js"></script>
+    <script src="./owlJS/owl.carousel.min.js"></script>
+    <script src="./index.js"></script>
+    <!----------------------------------------------------------------------->
 </body>
+
 </html>
