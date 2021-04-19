@@ -18,8 +18,8 @@
 </head>
 
 <body>
-    <header>
-        <div class="Container">
+    <header class="header-logo">
+        <div class="Container topo">
             <h2 class="logo">GameFlix</h2>
             <nav>
                 <a href="">Inicio</a>
@@ -44,26 +44,75 @@
                     <button role="button" class="botao"><i class="fas fa-info-circle"></i>Mais Informações</button>
                 </div>
             </div>
+            <div class="Container-2">
+                <img class="game-capa" src="./img/digimon-ds-capa.jpg" alt="">
+            </div>
 
         </div>
     </main>
-
+    <h2>Destaque</h2>
     <div class="carrosel-games">
         <div class="owl-carousel owl-theme">
             <div class="item">
                 <img class="box-game" src="img/digimon-ds-capa.jpg" alt="">
             </div>
+            <div class="item">
+                <img class="box-game" src="img/marioO.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-game" src="img/ragnarok-ds-(u)-zipnintendo-ds.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-game" src="img/zeldat.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-game" src="img/finalfanta.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <header class="roms">
+        <h1>Roms</h1>
+    </header>
+
+    <div id="paginate">
+        <div class="list">
+            <div class="item">
+                <h3>Nome do jogo</h3>
+                <img class="Capa-item" src="./img/digimon-ds-capa.jpg" alt="">
+                <h3>nota</h3>
+            </div>
+            <div class="item">
+                <h3>Nome do jogo</h3>
+                <img class="Capa-item" src="./img/digimon-ds-capa.jpg" alt="">
+                <h3>nota</h3>
+            </div>
+            <div class="item">
+                <h3>Nome do jogo</h3>
+                <img class="Capa-item" src="./img/digimon-ds-capa.jpg" alt="">
+                <h3>nota</h3>
+            </div>
         </div>
 
+        <div class="pagination">
+            <div class="first">&#171</div>
+            <div class="prev"><</div>
+                    <div class="numbers">
+                        <div>1</div>
+                    </div>
+                    <div class="next">></div>
+                    <div class="last">&#187</div>
+        </div>
     </div>
 
-    <script src="https://kit.fontawesome.com/fb4e7a4bc9.js" crossorigin="anonymous"></script>
-    <!--------------------------------Owl JS-------------------------------->
-    
-    <script src="./owlJS/jquery.min.js"></script>
-    <script src="./owlJS/owl.carousel.min.js"></script>
-    <script src="./index.js"></script>
-    <!----------------------------------------------------------------------->
+
+        <script src="https://kit.fontawesome.com/fb4e7a4bc9.js" crossorigin="anonymous"></script>
+        <!--------------------------------Owl JS-------------------------------->
+
+        <script src="./owlJS/jquery.min.js"></script>
+        <script src="./owlJS/owl.carousel.min.js"></script>
+        <script src="./index.js"></script>
+        <script src="./paginate.js"></script>
+        <!----------------------------------------------------------------------->
 </body>
 
 </html>
