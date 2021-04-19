@@ -4,8 +4,6 @@
 
 ## Descrição do projeto:
 Clone da netflix porem voltado a Roms de jogos... <br/>
-Adicionado carrosel com owl <br/>
-Criado um menu de paginação em JS <br/>
 
  **Criado em:**
 <img aling="center" height="30" width="40" style="max-width:100%;" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="tallys-facebook">
